@@ -1,0 +1,25 @@
+{
+  "name": "npmshrink",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bin": {
+    "npmshrink": "bin/dev",
+    "npmshrink:dev": "bin/dev",
+    "npmshrink:prod": "bin/prod"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/npmshrink/issues"
+  },
+  "homepage": "https://github.com/pdehaan/npmshrink",
+  "keywords": [
+    "shrinkwrap"
+  ],
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/npmshrink.git"
+  },
+  "scripts": {
+    "test": "exit 0"
+  }
+}
