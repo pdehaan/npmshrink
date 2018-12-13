@@ -4,3 +4,6 @@ rm -rf node_modules npm-shrinkwrap.json && \
   npm install --production && \
   npm prune && \
   npm shrinkwrap
+
+sed -i.orig 's/"resolved": "http:\/\/registry\.npmjs\.org\//"resolved": "https:\/\/registry.npmjs.org\//' npm-shrinkwrap.json
+rm -f npm-shrinkwrap.json.orig
