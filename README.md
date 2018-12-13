@@ -44,7 +44,7 @@ In order to [re]generate a shrinkwrap file, you would use one of the two followi
 
 ## Changelog
 
-* 2.0 - Now runs an expression to convert http:// to https:// in lock files.
+* 2.0 - Now runs an expression to convert http:// to https:// in lock files. MPL-2.0 license.
 * 1.0 - init release
 
 ## License
