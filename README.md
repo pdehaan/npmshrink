@@ -41,5 +41,12 @@ In order to [re]generate a shrinkwrap file, you would use one of the two followi
 1. `$ npm run shrink` &mdash; generates an npm-shrinkwrap.json file with both dependencies _and_ devDependencies.
 2. `$ npm run shrink:prod` &mdash; generates an npm-shrinkwrap.json file with _only_ the dependencies (no devDependencies).
 
-## License?
-WTFPL, because I literally can't even give an F.
+
+## Changelog
+
+* 2.0 - Now runs an expression to convert http:// to https:// in lock files. MPL-2.0 license.
+* 1.0 - init release
+
+## License
+
+MPL-2.0
